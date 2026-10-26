@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mae Princess Misa | Portfolio</title>
+  <meta name="description" content="Mae Princess Misa - a student creating art and design that tells stories. Class projects, skills, and contact information." />
+  <link rel="icon" href="images/profile.jpg" type="image/jpeg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container header__inner">
+      <a href="#home" class="brand">Mae Princess Misa</a>
+
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open navigation menu">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+
+      <nav class="nav" id="navMenu" aria-label="Main navigation">
+        <ul class="nav__menu">
+          <li><a class="nav__link" href="#home">HOME</a></li>
+          <li><a class="nav__link" href="#about">ABOUT</a></li>
+          <li><a class="nav__link" href="#work">WORK</a></li>
+          <li><a class="nav__link" href="#process">PROCESS</a></li>
+          <li><a class="nav__link" href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn btn--sm header__cta" href="#contact">Get in touch</a>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section id="home" class="hero">
+      <div class="hero__blob" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="script-lead">Hello, welcome !</p>
+          <h1 class="hero__title"> Design creatively and bring
+<span class="script">  ideas to life</span>  through technology. </h1>
+          <p class="hero__intro">
+            A student learning to build beautiful, accessible things for the web 
+            currently exploring illustration, layout and front-end code.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#work">See my work</a>
+            <a class="btn btn--outline" href="#about">More about me</a>
+          </div>
+        </div>
+       
+      </div>
+      <div class="scallop" aria-hidden="true"></div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <header class="section__head center">
+          <h2 class="section__title">About <span class="script">Me</span></h2>
+          <span class="ornament" aria-hidden="true">
+            <svg viewBox="0 0 120 16" width="120" height="16"><line x1="0" y1="8" x2="44" y2="8"/><circle cx="60" cy="8" r="4"/><line x1="76" y1="8" x2="120" y2="8"/></svg>
+          </span>
+        </header>
+
+        <div class="about__grid">
+          <div class="about__photo">
+            <span class="frame" aria-hidden="true"></span>
+            <img src="images/profile.png" alt="Portrait of Mae Princess Misa" width="400" height="400" loading="lazy" />
+          </div>
+          <div class="about__body">
+            <h3 class="about__hello">Hi, I'm <span class="script">Mae Princess Misa</span></h3>
+            <p>
+              Studying of <strong> Bachelor in Science Information Technology </strong> student developing my skills in UI/UX design and front-end development. I enjoy transforming ideas into simple,
+               creative, and user-friendly designs that look great on both mobile devices and computers.
+            </p>
+            <p>
+              I enjoy being creative, exploring new ideas, and learning new things about technology and design. I’m still learning and growing, 
+              and I love finding ways to turn my ideas into something meaningful.
+            </p>
+            <a class="btn btn--primary" href="#contact">Let's work together</a>
+          </div>
+        </div>
+
+        <ul class="stats">
+          <li class="stat"><span class="stat__num">3</span><span class="stat__label">Class projects</span></li>
+          <li class="stat"><span class="stat__num">5</span><span class="stat__label">Tools &amp; languages</span></li>
+          <li class="stat"><span class="stat__num">4</span><span class="stat__label">Group projects</span></li>
+          <li class="stat"><span class="stat__num">4</span><span class="stat__label">Years studying</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills" class="section services">
+      <div class="container">
+        <header class="section__head center">
+          <h2 class="section__title">What <span class="script">I Do</span></h2>
+          <span class="ornament" aria-hidden="true">
+            <svg viewBox="0 0 120 16" width="120" height="16"><line x1="0" y1="8" x2="44" y2="8"/><circle cx="60" cy="8" r="4"/><line x1="76" y1="8" x2="120" y2="8"/></svg>
+          </span>
+        </header>
+
+        <div class="cards">
+          <article class="service-card">
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            </span>
+            <h3>Front-end</h3>
+            <p>Building pages with semantic HTML, modern CSS and a little JavaScript.</p>
+          </article>
+          <article class="service-card">
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg>
+            </span>
+            <h3>Responsive design</h3>
+            <p>Layouts that stay readable and easy to use on phones, tablets and desktops.</p>
+          </article>
+          <article class="service-card">
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3a9 9 0 1 0 0 18h2a2 2 0 0 0 0-4 2 2 0 0 1 2-2h3a2 2 0 0 0 2-2A9 9 0 0 0 12 3z"/><circle cx="8" cy="10" r="1"/><circle cx="12" cy="7.5" r="1"/><circle cx="16" cy="10" r="1"/></svg>
+            </span>
+            <h3>Visual design</h3>
+            <p>Colour, type and spacing choices that give a project a clear, friendly feel.</p>
+          </article>
+          <article class="service-card">
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="6" cy="6" r="2.5"/><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="12" r="2.5"/><path d="M8.2 7.2 15.7 11M8.2 16.8 15.7 13"/></svg>
+            </span>
+            <h3>Git &amp; teamwork</h3>
+            <p>Using Git and GitHub to track changes, share work and collaborate safely.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="work" class="section work">
+      <div class="container">
+        <header class="section__head center">
+          <h2 class="section__title">Selected <span class="script">Work</span></h2>
+          <span class="ornament" aria-hidden="true">
+            <svg viewBox="0 0 120 16" width="120" height="16"><line x1="0" y1="8" x2="44" y2="8"/><circle cx="60" cy="8" r="4"/><line x1="76" y1="8" x2="120" y2="8"/></svg>
+          </span>
+          <p class="section__lead">A few class projects and practice pieces. Browse the screens, filter by type, and open a project for details.</p>
+        </header>
+
+        <!-- Category filters -->
+        <div class="pw-filters" role="group" aria-label="Filter projects">
+          <button class="pw-filter is-active" data-filter="all" type="button">All Works</button>
+          <button class="pw-filter" data-filter="frontend" type="button">Frontend</button>
+          <button class="pw-filter" data-filter="mobile" type="button">Mobile UI</button>
+          <button class="pw-filter" data-filter="webapp" type="button">Web Apps</button>
+          <button class="pw-filter" data-filter="interactive" type="button">Interactive Tools</button>
+        </div>
+
+        <div class="pw-grid">
+
+          <!-- CARD 1: Recipe Finder -->
+          <article class="pw-card" data-categories="frontend mobile interactive">
+            <div class="pw-preview pw-preview--recipe">
+              <div class="pw-track">
+                <div class="pw-slide">
+                  <div class="pw-row pw-recipe-nav">
+                    <span class="on">Find a recipe</span><span>Collections</span><span>Kitchen notes</span>
+                  </div>
+                  <div class="pw-center">
+                    <svg width="160" height="160" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                      <path d="M90 35 Q85 20 95 10" stroke="#cbb29b" stroke-width="2.5" stroke-linecap="round"/>
+                      <path d="M108 32 Q102 18 112 8" stroke="#cbb29b" stroke-width="2.5" stroke-linecap="round"/>
+                      <rect x="25" y="88" width="22" height="12" rx="6" fill="#eed9c4" stroke="#d49a7a" stroke-width="2"/>
+                      <rect x="153" y="88" width="22" height="12" rx="6" fill="#eed9c4" stroke="#d49a7a" stroke-width="2"/>
+                      <path d="M42 75 H158 C158 75 160 135 142 155 C125 170 75 170 58 155 C40 135 42 75 42 75Z" fill="#cf7762" stroke="#b95e49" stroke-width="2.5"/>
+                      <ellipse cx="100" cy="76" rx="58" ry="11" fill="#75382b"/>
+                      <ellipse cx="100" cy="78" rx="54" ry="9" fill="#a4523f"/>
+                      <circle cx="86" cy="115" r="2.5" fill="#3a1b14"/>
+                      <circle cx="114" cy="115" r="2.5" fill="#3a1b14"/>
+                      <ellipse cx="78" cy="120" rx="4" ry="2" fill="#ef9b89" opacity="0.8"/>
+                      <ellipse cx="122" cy="120" rx="4" ry="2" fill="#ef9b89" opacity="0.8"/>
+                      <path d="M96 123 Q100 128 104 123" stroke="#3a1b14" stroke-width="2" stroke-linecap="round"/>
+                      <path d="M142 50 L166 120" stroke="#c79c6d" stroke-width="7" stroke-linecap="round"/>
+                      <ellipse cx="140" cy="45" rx="10" ry="14" fill="#deb887" transform="rotate(-20 140 45)"/>
+                      <circle cx="58" cy="148" r="18" fill="#e04738"/>
+                      <ellipse cx="64" cy="144" rx="14" ry="15" fill="#ec5d4e"/>
+                      <path d="M58 130 C59 133 60 135 56 135 C52 135 57 127 58 130Z" fill="#388e3c"/>
+                      <circle cx="78" cy="158" r="12" fill="#fcd34d"/>
+                      <circle cx="78" cy="158" r="10" fill="#fef08a"/>
+                      <circle cx="78" cy="158" r="2" fill="#ca8a04"/>
+                      <circle cx="152" cy="152" r="14" fill="#65a30d"/>
+                      <circle cx="142" cy="144" r="10" fill="#84cc16"/>
+                      <circle cx="160" cy="142" r="11" fill="#4d7c0f"/>
+                      <path d="M48 68 L50 74 L56 76 L50 78 L48 84 L46 78 L40 76 L46 74 Z" fill="#fcd34d"/>
+                      <path d="M164 60 L165 64 L169 65 L165 66 L164 70 L163 66 L159 65 L163 64 Z" fill="#fcd34d"/>
+                    </svg>
+                    <span class="pw-chip"><span class="ms" style="font-size:14px;color:#e04738;font-variation-settings:'FILL' 1;">favorite</span>made for your everyday magic</span>
+                  </div>
+                  <div class="pw-searchbar">
+                    <span class="pw-gap" style="gap:6px;"><span class="ms" style="font-size:16px;">search</span>Try "avocado toast"...</span>
+                    <span class="mini">Search</span>
+                  </div>
+                </div>
+
+                <div class="pw-slide">
+                  <div class="pw-row">
+                    <span class="pw-serif" style="font-size:1.1rem;color:#422006;">Search: "Tomato"</span>
+                    <span class="pw-t11 pw-fw6" style="background:#e7d8c5;color:#633a17;padding:2px 8px;border-radius:4px;">14 hits</span>
+                  </div>
+                  <div class="pw-list">
+                    <div class="pw-item">
+                      <span class="pw-item__icon" style="background:#ffe8d6;color:#c85a32;"><span class="ms" style="font-size:24px;">soup_kitchen</span></span>
+                      <div class="pw-grow"><p class="pw-item__t">Creamy Tuscan Basil Bisque</p><p class="pw-item__s">25 mins • 4 ingredients • Easy</p></div>
+                    </div>
+                    <div class="pw-item">
+                      <span class="pw-item__icon" style="background:#d8f3dc;color:#2d6a4f;"><span class="ms" style="font-size:24px;">local_pizza</span></span>
+                      <div class="pw-grow"><p class="pw-item__t">Rustic Skillet Margherita</p><p class="pw-item__s">15 mins • 5 ingredients • Quick</p></div>
+                    </div>
+                  </div>
+                  <div class="pw-footnote" style="background:#ede1d1;color:#5e442c;">Pantry auto-match active</div>
+                </div>
+
+                <div class="pw-slide">
+                  <div class="pw-row pw-t12" style="color:#8c6b45;"><span class="pw-fw6" style="color:#c85a32;">Step 2 of 4</span><span>Prep: 08:45 remaining</span></div>
+                  <div class="pw-stepcard">
+                    <span class="pw-pill" style="background:#fde8e4;color:#c85a32;">Simmering</span>
+                    <h4 class="pw-serif" style="font-size:1.1rem;color:#381e14;margin:8px 0 4px;">Gentle Reduction</h4>
+                    <p class="pw-t12" style="color:#6e5d50;margin:0;line-height:1.6;">Lower flame to medium-low. Add crushed tomatoes and a pinch of salt. Stir slowly.</p>
+                  </div>
+                  <div class="pw-gap" style="gap:8px;">
+                    <span class="pw-btn-mock" style="background:#b95e49;color:#fff;flex:1;">Done Step</span>
+                    <span class="pw-sqicon" style="background:#fff;color:#b95e49;width:36px;height:36px;"><span class="ms" style="font-size:18px;">timer</span></span>
+                  </div>
+                </div>
+              </div>
+
+              <span class="pw-badge"><span class="pw-badge__dot" style="background:#c85a32;"></span>Search app</span>
+              <button class="pw-arrow pw-prev" type="button" aria-label="Previous slide"><span class="ms">chevron_left</span></button>
+              <button class="pw-arrow pw-next" type="button" aria-label="Next slide"><span class="ms">chevron_right</span></button>
+              <div class="pw-dots"><span class="pw-dot is-active"></span><span class="pw-dot"></span><span class="pw-dot"></span></div>
+            </div>
+
+            <div class="pw-body">
+              <div>
+                <h3 class="pw-card__title">Recipe Finder</h3>
+                <p class="pw-card__desc">A small app where you type an ingredient and see matching recipes.</p>
+                <p class="pw-card__meta"><strong>My contribution:</strong> Built the layout and the search logic.</p>
+                <div class="pw-tags"><span class="pw-tag">HTML</span><span class="pw-tag">CSS</span><span class="pw-tag">JavaScript</span></div>
+              </div>
+              <div class="pw-foot">
+                <button class="pw-view" data-project="recipe-finder" type="button"><span>View project</span><span class="ms">arrow_forward</span></button>
+                <span class="pw-foot__note">Class project</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 2: Study Planner -->
+          <article class="pw-card" data-categories="frontend webapp mobile">
+            <div class="pw-preview pw-preview--dark" style="background:#0c1f3c;">
+              <div class="pw-track">
+                <div class="pw-slide" style="background:linear-gradient(#0a1830,#071326);">
+                  <div class="pw-row">
+                    <div>
+                      <p class="pw-t10 pw-c-sec pw-up pw-fw6 pw-m0">Semester Sprint</p>
+                      <h4 class="pw-serif pw-m0" style="font-size:1.25rem;">Study Planner</h4>
+                    </div>
+                    <span class="pw-sqicon" style="background:rgba(139,156,247,.2);color:#b9c3ff;"><span class="ms" style="font-size:18px;">calendar_today</span></span>
+                  </div>
+                  <div class="pw-box pw-row" style="background:#182a47;">
+                    <div class="pw-gap" style="gap:8px;">
+                      <span class="pw-circ" style="background:rgba(245,158,11,.2);">🔥</span>
+                      <div><p class="pw-t12 pw-fw6 pw-m0">12-Day Streak</p><p class="pw-t10 pw-c-mute pw-m0">Browser localStorage</p></div>
+                    </div>
+                    <span class="pw-t10" style="background:rgba(102,176,144,.3);color:#8bd6b4;padding:2px 8px;border-radius:999px;">85% done</span>
+                  </div>
+                  <div class="pw-list" style="gap:8px;margin:0;">
+                    <div class="pw-box pw-gap" style="background:rgba(12,31,60,.6);opacity:.6;"><span class="pw-check" style="background:#8bd6b4;color:#000e26;">✓</span><span class="pw-t12 pw-c-mute" style="text-decoration:line-through;">Psychology Essay Draft</span></div>
+                    <div class="pw-box pw-row" style="background:#182a47;"><span class="pw-gap"><span class="pw-check" style="background:#233553;"></span><span class="pw-t12 pw-fw6">CS Algorithm Quiz 3</span></span><span class="pw-t10 pw-fw6" style="color:#f87171;background:rgba(248,113,113,.1);padding:2px 8px;border-radius:4px;">Today</span></div>
+                    <div class="pw-box pw-row" style="background:#182a47;"><span class="pw-gap"><span class="pw-check" style="background:#233553;"></span><span class="pw-t12 pw-fw6">Read Chapter 7 (Design)</span></span><span class="pw-t10 pw-c-sec">Tomorrow</span></div>
+                  </div>
+                  <div class="pw-box pw-gap pw-t12 pw-c-mute" style="background:rgba(35,53,83,.6);"><span class="ms" style="font-size:16px;">add_task</span><span>Type assignment name...</span></div>
+                </div>
+
+                <div class="pw-slide" style="background:#09152b;">
+                  <div class="pw-row pw-t12"><span class="pw-fw6 pw-c-sec">Weekly Calendar</span><span class="pw-t10 pw-c-ter">Week 8 of 16</span></div>
+                  <div class="pw-list" style="gap:8px;">
+                    <div class="pw-box pw-t12" style="background:#182a47;padding:8px;"><div class="pw-row pw-t10" style="margin-bottom:4px;"><span class="pw-c-sec">09:00 - 11:30</span><span class="pw-c-ter pw-fw6">Deep Focus</span></div><p class="pw-m0 pw-fw6">Algorithms &amp; Data Structures</p></div>
+                    <div class="pw-box pw-t12" style="background:#0c1f3c;padding:8px;"><div class="pw-row pw-t10" style="margin-bottom:4px;color:#94a3b8;"><span>13:00 - 14:15</span><span class="pw-c-sec pw-fw6">Lecture</span></div><p class="pw-m0 pw-fw6">Cognitive Psychology 101</p></div>
+                    <div class="pw-box pw-t12" style="background:#0c1f3c;padding:8px;"><div class="pw-row pw-t10" style="margin-bottom:4px;color:#94a3b8;"><span>16:00 - 17:30</span><span class="pw-fw6" style="color:#f59e0b;">Team Sync</span></div><p class="pw-m0 pw-fw6">Web Project Collaboration</p></div>
+                  </div>
+                  <div class="pw-footnote pw-c-sec" style="background:#233553;">4.5 hours scheduled today</div>
+                </div>
+
+                <div class="pw-slide" style="background:#071326;align-items:center;text-align:center;">
+                  <span class="pw-t12 pw-up pw-fw6 pw-c-mute">Pomodoro Technique</span>
+                  <div class="pw-ring">
+                    <svg width="144" height="144" viewBox="0 0 120 120" style="transform:rotate(-90deg);" aria-hidden="true">
+                      <circle cx="60" cy="60" r="50" fill="none" stroke="#182a47" stroke-width="8"/>
+                      <circle cx="60" cy="60" r="50" fill="none" stroke="#8b9cf7" stroke-width="8" stroke-linecap="round" stroke-dasharray="314" stroke-dashoffset="75"/>
+                    </svg>
+                    <div class="pw-ring__txt"><span class="pw-serif" style="font-size:1.4rem;font-weight:700;">18:42</span><span class="pw-t10 pw-c-ter">Focus Phase</span></div>
+                  </div>
+                  <div class="pw-gap" style="width:100%;gap:8px;">
+                    <span class="pw-btn-mock" style="background:#8b9cf7;color:#1c2f85;flex:1;">Pause</span>
+                    <span class="pw-btn-mock" style="background:#182a47;color:#d7e3ff;">Reset</span>
+                  </div>
+                </div>
+              </div>
+
+              <span class="pw-badge pw-badge--dark"><span class="pw-badge__dot" style="background:#8bd6b4;"></span>Planner</span>
+              <button class="pw-arrow pw-prev" type="button" aria-label="Previous slide"><span class="ms">chevron_left</span></button>
+              <button class="pw-arrow pw-next" type="button" aria-label="Next slide"><span class="ms">chevron_right</span></button>
+              <div class="pw-dots"><span class="pw-dot is-active"></span><span class="pw-dot"></span><span class="pw-dot"></span></div>
+            </div>
+
+            <div class="pw-body">
+              <div>
+                <h3 class="pw-card__title">Study Planner</h3>
+                <p class="pw-card__desc">A to-do style planner for tracking assignments and due dates on a phone.</p>
+                <p class="pw-card__meta"><strong>My contribution:</strong> Designed the interface and saved tasks in the browser.</p>
+                <div class="pw-tags"><span class="pw-tag">HTML</span><span class="pw-tag">CSS</span><span class="pw-tag">localStorage</span></div>
+              </div>
+              <div class="pw-foot">
+                <button class="pw-view" data-project="study-planner" type="button"><span>View project</span><span class="ms">arrow_forward</span></button>
+                <span class="pw-foot__note">Class project</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 3: Weather Dashboard -->
+          <article class="pw-card" data-categories="frontend webapp interactive">
+            <div class="pw-preview pw-preview--dark" style="background:#1a3868;">
+              <div class="pw-track">
+                <div class="pw-slide" style="background:linear-gradient(#2b599b,#1a3a6b,#0c1f3c);">
+                  <div class="pw-row">
+                    <div>
+                      <div class="pw-gap pw-t11 pw-c-sec" style="gap:4px;"><span class="ms" style="font-size:16px;">location_on</span><span class="pw-up pw-fw6">Tokyo, Japan</span></div>
+                      <p class="pw-t10 pw-m0" style="color:rgba(255,255,255,.7);">Updated 4 mins ago</p>
+                    </div>
+                    <span class="pw-t12" style="background:rgba(255,255,255,.1);padding:2px 8px;border-radius:4px;">°C</span>
+                  </div>
+                  <div class="pw-center">
+                    <svg width="76" height="76" viewBox="0 0 100 100" aria-hidden="true">
+                      <circle cx="38" cy="38" r="16" fill="#fcd34d" opacity="0.95"/>
+                      <path d="M30 65 H75 C82 65 88 59 88 52 C88 45 82 39 75 39 C74 39 73 39 72 39 C69 31 61 25 51 25 C40 25 31 33 29 44 C24 45 20 49 20 55 C20 60 25 65 30 65Z" fill="#ffffff" opacity="0.95"/>
+                    </svg>
+                    <span class="pw-serif" style="font-size:2rem;font-weight:700;line-height:1.2;">22°</span>
+                    <span class="pw-t12 pw-c-sec pw-fw6">Partly Cloudy &amp; Gentle Breeze</span>
+                  </div>
+                  <div class="pw-metrics">
+                    <div><p class="pw-t10 pw-c-sec pw-m0">Humidity</p><p class="pw-t12 pw-fw6 pw-m0">58%</p></div>
+                    <div><p class="pw-t10 pw-c-sec pw-m0">Wind</p><p class="pw-t12 pw-fw6 pw-m0">12 km/h</p></div>
+                    <div><p class="pw-t10 pw-c-sec pw-m0">UV Index</p><p class="pw-t12 pw-fw6 pw-c-ter pw-m0">2 Low</p></div>
+                  </div>
+                </div>
+
+                <div class="pw-slide" style="background:linear-gradient(#1c3f73,#0c1f3c);">
+                  <div class="pw-row pw-t12"><span class="pw-fw6 pw-c-sec">7-Day Outlook</span><span class="pw-t10" style="color:rgba(255,255,255,.7);">Precipitation %</span></div>
+                  <div class="pw-list" style="gap:8px;">
+                    <div class="pw-fc"><span class="pw-fc__d">Mon</span><span class="ms" style="font-size:18px;color:#fcd34d;">sunny</span><span class="pw-bar"><i style="width:75%;"></i></span><span class="pw-t12 pw-fw6">24° / 17°</span></div>
+                    <div class="pw-fc"><span class="pw-fc__d">Tue</span><span class="ms" style="font-size:18px;color:#93c5fd;">rainy</span><span class="pw-bar"><i style="width:50%;"></i></span><span class="pw-t12 pw-fw6">19° / 14°</span></div>
+                    <div class="pw-fc"><span class="pw-fc__d">Wed</span><span class="ms" style="font-size:18px;color:#fcd34d;">partly_cloudy_day</span><span class="pw-bar"><i style="width:66%;"></i></span><span class="pw-t12 pw-fw6">21° / 15°</span></div>
+                  </div>
+                  <p class="pw-t11 pw-c-sec pw-m0" style="text-align:center;">Expected rain on Tuesday evening</p>
+                </div>
+
+                <div class="pw-slide" style="background:#0a172e;">
+                  <div class="pw-row pw-t12"><span class="pw-fw6 pw-c-sec">Live Atmospheric Radar</span><span class="pw-livedot"></span></div>
+                  <div class="pw-radar">
+                    <span class="pw-radar__ring"></span>
+                    <span class="pw-radar__tag">Scanned Radar</span>
+                  </div>
+                  <div class="pw-row pw-t11 pw-c-mute"><span>Pressure: 1014 hPa</span><span>Air Quality: 34 (Good)</span></div>
+                </div>
+              </div>
+
+              <span class="pw-badge pw-badge--dark"><span class="pw-badge__dot" style="background:#b7c4ff;"></span>API app</span>
+              <button class="pw-arrow pw-prev" type="button" aria-label="Previous slide"><span class="ms">chevron_left</span></button>
+              <button class="pw-arrow pw-next" type="button" aria-label="Next slide"><span class="ms">chevron_right</span></button>
+              <div class="pw-dots"><span class="pw-dot is-active"></span><span class="pw-dot"></span><span class="pw-dot"></span></div>
+            </div>
+
+            <div class="pw-body">
+              <div>
+                <h3 class="pw-card__title">Weather Dashboard</h3>
+                <p class="pw-card__desc">Look up the current weather for a city, with loading and error states.</p>
+                <p class="pw-card__meta"><strong>My contribution:</strong> Connected the API and built the responsive cards.</p>
+                <div class="pw-tags"><span class="pw-tag">JavaScript</span><span class="pw-tag">API</span><span class="pw-tag">CSS Grid</span></div>
+              </div>
+              <div class="pw-foot">
+                <button class="pw-view" data-project="weather-dashboard" type="button"><span>View project</span><span class="ms">arrow_forward</span></button>
+                <span class="pw-foot__note">Class project</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section process">
+      <div class="container">
+        <header class="section__head center">
+          <h2 class="section__title">My Creative <span class="script">Process</span></h2>
+          <span class="ornament" aria-hidden="true">
+            <svg viewBox="0 0 120 16" width="120" height="16"><line x1="0" y1="8" x2="44" y2="8"/><circle cx="60" cy="8" r="4"/><line x1="76" y1="8" x2="120" y2="8"/></svg>
+          </span>
+        </header>
+
+        <ol class="steps">
+          <li class="step">
+            <span class="step__num">01</span>
+            <h3>Understand</h3>
+            <p>Read the brief, ask questions and write down what the project really needs.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">02</span>
+            <h3>Sketch</h3>
+            <p>Rough layouts and quick ideas before touching any code.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">03</span>
+            <h3>Build</h3>
+            <p>Turn the plan into clean HTML and CSS, mobile first.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">04</span>
+            <h3>Refine</h3>
+            <p>Test on a real phone, fix the details and polish the finish.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section words">
+      <div class="container words__grid">
+        <div class="words__col">
+         
+
+          <!-- TODO: replace with real feedback from a real teacher/classmate (with their permission), or delete these two quotes. -->
+        
+
+        <aside class="words__col">
+          <header class="section__head">
+            <h2 class="section__title">Work <span class="script">With Me</span></h2>
+          </header>
+          <div class="commission">
+            <img src="images/work.png" alt="Work with me" width="560" height="420" loading="lazy" />
+            <h3>Open to internships &amp; group projects</h3>
+            <p>I'm looking for chances to practise, learn and contribute. Feel free to reach out with any opportunity or question.</p>
+            <a class="btn btn--primary" href="#contact">Start a conversation</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container contact__grid">
+        <div class="contact__intro">
+          <h2 class="section__title">Let's Create <span class="script">Together</span></h2>
+          <p class="section__lead">
+            The quickest way to reach me is email. I'm happy to hear from classmates,
+            teachers and anyone with feedback on my work.
+          </p>
+          <a class="btn btn--primary" href="mailto:misamaeprincess@gmail.com">Email me</a>
+          <ul class="socials">
+            <li><a href="https://github.com/maemisa" target="_blank" rel="noopener">GitHub</a></li>
+          
+            <li><a href="assets/MISA_resume.pdf" download>Resume (PDF)</a></li>
+          </ul>
+        </div>
+
+        <div class="contact__form">
+          <form id="contactForm" novalidate>
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@email.com" required />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell me about your idea..." required></textarea>
+            </div>
+            <button class="btn btn--primary btn--block" type="submit">Send message</button>
+            <p class="form-note" id="formNote" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#home" class="brand brand--light">Mae Princess Misa</a>
+        <p>Student portfolio — creating art &amp; design and explore.</p>
+      </div>
+      <nav class="footer__col" aria-label="Footer links">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#work">WORK</a></li>
+          <li><a href="#process">PROCESS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+      <div class="footer__col">
+        <h4>Say hello</h4>
+        <ul>
+          <li><a href="mailto:misamaeprincess@gmail.com">misamaeprincess@gmail.com</a></li>
+          <li><a href="https://github.com/maemisa" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Newsletter</h4>
+        <p class="footer__note">Occasional updates on what I'm learning.</p>
+        <form class="newsletter" id="newsletter" novalidate>
+          <label class="sr-only" for="news-email">Email address</label>
+          <input id="news-email" type="email" placeholder="Email address" required />
+          <button class="btn btn--primary btn--sm" type="submit">Join</button>
+        </form>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>&copy; <span id="year">2026</span> All Rights Reserved. Built with HTML, CSS &amp; JavaScript.</p>
+      <a href="#home">Back to top &uarr;</a>
+    </div>
+  </footer>
+
+  <!-- Project details popup (opened by the "View project" buttons) -->
+  <div class="pw-modal" id="pwModal" role="dialog" aria-modal="true" aria-labelledby="pwModalTitle" aria-hidden="true">
+    <div class="pw-modal__box">
+      <div class="pw-modal__bar">
+        <span class="pw-modal__tag" id="pwModalTag">Class project</span>
+        <button class="pw-modal__close" id="pwModalClose" type="button" aria-label="Close project details"><span class="ms">close</span></button>
+      </div>
+      <div class="pw-modal__body">
+        <h3 id="pwModalTitle">Project title</h3>
+        <p class="pw-modal__desc" id="pwModalDesc"></p>
+        <div class="pw-modal__grid">
+          <div class="pw-modal__cell"><span class="pw-modal__label">My contribution</span><p id="pwModalRole"></p></div>
+          <div class="pw-modal__cell"><span class="pw-modal__label">Tools used</span><div class="pw-modal__stack" id="pwModalStack"></div></div>
+        </div>
+        <div class="pw-modal__links">
+          <a class="pw-modal__btn pw-modal__btn--main" id="pwModalLive" href="#" target="_blank" rel="noopener">Launch live project <span class="ms" style="font-size:16px;">open_in_new</span></a>
+          <a class="pw-modal__btn" id="pwModalCode" href="#" target="_blank" rel="noopener">View code <span class="ms" style="font-size:16px;">code</span></a>
+        </div>
+        <p class="pw-modal__hint">Press ESC or click outside to close</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
